@@ -62,6 +62,8 @@ const Chats = () => {
   }, [user, history]);
 
   if (!user || loading) return "Loading...";
+
+  //
   return (
     <div className="chats-page">
       <div className="nav-bar">
@@ -70,12 +72,7 @@ const Chats = () => {
           LogOut
         </div>
       </div>
-      <ChatEngine
-        height="calc(100vh - 66px)"
-        projectID={process.env.REACT_APP_CHAT_ENGINE_ID}
-        userName={user.email}
-        userSecret={user.uid}
-      />
+      <ChatEngine height="calc(100vh - 66px)" projectID={process.env.REACT_APP_CHAT_ENGINE_ID} userName={user.email} userSecret={user.uid} />
     </div>
   );
 };
