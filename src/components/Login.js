@@ -9,13 +9,8 @@ const Login = () => {
   return (
     <div id="login-page">
       <div id="login-card">
-        <h2>Welcome to UniChat!</h2>
-        <div
-          className="login-button google"
-          onClick={() =>
-            auth.signInWithRedirect(new firebase.auth.GoogleAuthProvider())
-          }
-        >
+        <h2>Welcome to UniChat App</h2>
+        <div className="login-button google" onClick={() => auth.signInWithRedirect(new firebase.auth.GoogleAuthProvider())}>
           <GoogleOutlined />
           Sign in with Google
         </div>
