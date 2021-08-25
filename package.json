@@ -16,7 +16,6 @@
     "react-scripts": "3.4.3",
     "web-vitals": "^1.0.1"
   },
-  "heroku-postbuild": "npm run build",
   "homepage": ".",
   "scripts": {
     "start": "react-scripts start",
