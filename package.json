@@ -16,6 +16,7 @@
     "react-scripts": "3.4.3",
     "web-vitals": "^1.0.1"
   },
+  engines": { "node": "14.x" },
   "homepage": ".",
   "scripts": {
     "start": "react-scripts start",
