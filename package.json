@@ -17,7 +17,7 @@
     "web-vitals": "^1.0.1"
   },
   "engines": { "node": "14.x" },
-  "homepage": ".",
+  "homepage": "https://clever-sammet-aa4b42.netlify.app/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
